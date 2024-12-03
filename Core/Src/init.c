@@ -1,5 +1,5 @@
 #include "../Inc/init.h"
-
+int test;
 void RCC_Init(void)
 { /* Предварительная очистка регистров RCC */
     MODIFY_REG(RCC->CR, RCC_CR_HSITRIM, 0x80U);
